@@ -588,7 +588,7 @@ if __name__ == "__main__":
                 if args.noise_type == 2:
                     print("used annealing", annealing_value)
 
-                if np.mean(val_losses) < lowest_val*2000:
+                if np.mean(val_losses) < lowest_val:
                     test_repeats = []
                     test_repeats_losses = []
                     test_repeats_rank_losses = []
